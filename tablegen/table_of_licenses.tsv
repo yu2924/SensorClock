@@ -1,0 +1,16 @@
+title	author	type	url	file
+BSP: ESP32-P4-WIFI6-Touch-LCD-7B	2024 Espressif Systems (Shanghai) CO LTD	Apache-2.0 license	https://www.waveshare.com/esp32-p4-wifi6-touch-lcd-7b.htm	Apache-2.0.txt
+ESP LCD EK79007	2023-2025 Espressif Systems (Shanghai) CO LTD	Apache-2.0 license	https://github.com/espressif/esp-iot-solution/tree/master/components/display/lcd/esp_lcd_ek79007	Apache-2.0.txt
+ESP LCD Touch GT911 Controller	2015-2026 Espressif Systems (Shanghai) CO LTD	Apache-2.0 license	https://github.com/espressif/esp-bsp/tree/master/components/lcd_touch/esp_lcd_touch_gt911	Apache-2.0.txt
+ESP Codec Device	2023 Espressif Systems (Shanghai) CO LTD	Apache-2.0 license	https://github.com/espressif/esp-adf/tree/4190f5d38a023f091914fd8cd3a650cb1c7042bc/components/esp_codec_dev	Apache-2.0.txt
+ESP_AUDIO_CODEC	Copyright (c) 2025 Espressif Systems (Shanghai) CO., LTD	Espressif Modified MIT License	https://github.com/espressif/esp-adf-libs/tree/master/esp_audio_codec	ESPAudioCodec-MIT.txt
+LVGL ESP Portation	2022-2025 Espressif Systems (Shanghai) CO LTD	Apache-2.0 license	https://github.com/espressif/esp-bsp/tree/master/components/esp_lvgl_port	Apache-2.0.txt
+LVGL	Copyright (c) 2025 LVGL Kft	MIT license	https://lvgl.io/	LVGL-MIT.txt
+mDNS Service	2015-2025 Espressif Systems (Shanghai) CO LTD	Apache-2.0 license	https://github.com/espressif/esp-protocols/tree/master/components/mdns	Apache-2.0.txt
+cJSON	Copyright (c) 2009-2017 Dave Gamble and cJSON contributors	MIT license	https://github.com/espressif/idf-extra-components/tree/master/cjson	cJSON-MIT.txt
+FrogFS	© Copyright 2023, FrogFS contributors.	MPL-2.0 license	https://github.com/jkent/frogfs	FlogFS-MPL-2.0.txt
+esp-idf-lib/scd4x	Copyright (c) 2021, Sensirion AG\nCopyright (c) 2021 Ruslan V. Uss <unclerus@gmail.com>	BSD-3-Clause license	https://github.com/esp-idf-lib/core	scd4x-BSD-3.txt
+esp-idf-lib/bme680	Copyright (c) 2017 Gunar Schorcht (https://github.com/gschorcht)\nCopyright (c) 2019 Ruslan V. Uss (https://github.com/UncleRus)	BSD-3-Clause license	https://github.com/esp-idf-lib/core	bme680-BSD-3.txt
+Montserrat	Copyright 2024 The Montserrat.Git Project Authors	OFL-1.1 license	https://github.com/JulietaUla/Montserrat	Montserrat-OFL-1.1.txt
+raspi-bme680-iaq	Copyright (c) 2021 thstielow	MIT license	https://github.com/thstielow/raspi-bme680-iaq	raspi-bme680-iaq-MIT.txt
+svgSimpleImages	Copyright (c) 2021 aikige	MIT license	https://github.com/aikige/svgSimpleImages	svgSimpleImages-MIT.txt

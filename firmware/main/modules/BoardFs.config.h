@@ -1,0 +1,2 @@
+#define USE_EMBEDDED_ASSETS 1
+// #define ENABLE_SPIFS 1

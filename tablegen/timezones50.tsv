@@ -1,0 +1,50 @@
+city	utcOffset	posixString
+Christmas Island	UTC+14	LINT-14
+Chatham Islands	UTC+12:45	CHAST-11:45CHADT,M3.2.0/2:00:00,M11.1.0/2:00:00
+New Zealand (Wellington)	UTC+12	NZST-12NZDT,M9.5.0/2:00:00,M4.1.0/3:00:00
+Eastern Australia	UTC+10	AEST-9AEDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+Sydney	UTC+10	AEST-10AEDT,M10.1.0/2:00:00,M4.1.0/3:00:00
+Central Australia	UTC+9:30	ACST-8:30ACDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+French Polynesia	UTC-9:30	MART9:30,M3.2.0/2:00:00,M11.1.0/2:00:00
+Japan (Tokyo)	UTC+9	JST-9
+Korea (Seoul)	UTC+9	KST-9
+China (Beijing)	UTC+8	CST-8
+Hong Kong	UTC+8	HKT-8
+Mongolia (Ulaanbaatar)	UTC+8	ULAT-8
+Perth	UTC+8	AWST-8
+Philippines (Manila)	UTC+8	PST-8
+Singapore	UTC+8	SGT-8
+Taiwan (Taipei)	UTC+8	CST-8
+Indonesia (Jakarta)	UTC+7	WIB-7
+Thailand (Bangkok)	UTC+7	ICT-7
+Vietnam (Hanoi)	UTC+7	ICT-7
+Bangladesh	UTC+6	BST-6
+Nepal (Kathmandu)	UTC+5:45	NPT-5:45
+India (Delhi)	UTC+5:30	IST-5:30
+Pakistan (Karachi)	UTC+5	PKT-5
+Azerbaijan	UTC+4	GST-4
+UAE (Dubai)	UTC+4	GST-4
+Iran (Tehran)	UTC+3:30	IRST-3:30IRDT,M3.4.4/24:00:00,M9.3.4/24:00:00
+Greece (Athens)	UTC+3	MSK-3
+Iraq (Baghdad)	UTC+3	AST-3
+Moscow	UTC+3	MSK-3
+Qatar (Doha)	UTC+3	AST-3
+Turkey (Istanbul)	UTC+3	TRT-3
+Germany (Berlin)	UTC+2	CEST-1CET,M3.2.0/2:00:00,M11.1.0/2:00:00
+Israel (Jerusalem)	UTC+2	IST-2IDT,M3.4.5/2:00:00,M10.5.0/2:00:00
+South Africa (Johannesburg)	UTC+2	SAST-2
+Paris	UTC+1	CET-1CEST,M3.5.0/2:00:00,M10.5.0/3:00:00
+Rome	UTC+1	CET-1CEST,M3.5.0/2:00:00,M10.5.0/3:00:00
+London	UTC+0	GMT0BST,M3.5.0/1:00:00,M10.5.0/2:00:00
+Cabo Verde	UTC-1	CVT1
+Greenland	UTC-2	WGST3WGT,M3.2.0/2:00:00,M11.1.0/2:00:00
+Argentina	UTC-3	ART3
+São Paulo	UTC-3	BRT3BRST,M10.3.0/0:00:00,M2.3.0/0:00:00
+New York	UTC-5	EST5EDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+Chicago	UTC-6	CST6CDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+Mexico City	UTC-6	CST6CDT,M4.1.0/2:00:00,M10.5.0/2:00:00
+Denver	UTC-7	MST7MDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+Los Angeles	UTC-8	PST8PDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+Alaska	UTC-9	AKST9AKDT,M3.2.0/2:00:00,M11.1.0/2:00:00
+Hawaii	UTC-10	HST10
+American Samoa	UTC-11	NUT11

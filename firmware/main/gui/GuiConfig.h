@@ -1,0 +1,2 @@
+﻿//#define SCREENRES_800x480 1
+#define SCREENRES_1024x600 1

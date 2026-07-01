@@ -1,0 +1,247 @@
+[
+	{
+		"city": "Christmas Island",
+		"utcOffset": "UTC+14",
+		"posixString": "LINT-14"
+	},
+	{
+		"city": "Chatham Islands",
+		"utcOffset": "UTC+12:45",
+		"posixString": "CHAST-11:45CHADT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "New Zealand (Wellington)",
+		"utcOffset": "UTC+12",
+		"posixString": "NZST-12NZDT,M9.5.0/2:00:00,M4.1.0/3:00:00"
+	},
+	{
+		"city": "Eastern Australia",
+		"utcOffset": "UTC+10",
+		"posixString": "AEST-9AEDT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Sydney",
+		"utcOffset": "UTC+10",
+		"posixString": "AEST-10AEDT,M10.1.0/2:00:00,M4.1.0/3:00:00"
+	},
+	{
+		"city": "Central Australia",
+		"utcOffset": "UTC+9:30",
+		"posixString": "ACST-8:30ACDT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "French Polynesia",
+		"utcOffset": "UTC-9:30",
+		"posixString": "MART9:30,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Japan (Tokyo)",
+		"utcOffset": "UTC+9",
+		"posixString": "JST-9"
+	},
+	{
+		"city": "Korea (Seoul)",
+		"utcOffset": "UTC+9",
+		"posixString": "KST-9"
+	},
+	{
+		"city": "China (Beijing)",
+		"utcOffset": "UTC+8",
+		"posixString": "CST-8"
+	},
+	{
+		"city": "Hong Kong",
+		"utcOffset": "UTC+8",
+		"posixString": "HKT-8"
+	},
+	{
+		"city": "Mongolia (Ulaanbaatar)",
+		"utcOffset": "UTC+8",
+		"posixString": "ULAT-8"
+	},
+	{
+		"city": "Perth",
+		"utcOffset": "UTC+8",
+		"posixString": "AWST-8"
+	},
+	{
+		"city": "Philippines (Manila)",
+		"utcOffset": "UTC+8",
+		"posixString": "PST-8"
+	},
+	{
+		"city": "Singapore",
+		"utcOffset": "UTC+8",
+		"posixString": "SGT-8"
+	},
+	{
+		"city": "Taiwan (Taipei)",
+		"utcOffset": "UTC+8",
+		"posixString": "CST-8"
+	},
+	{
+		"city": "Indonesia (Jakarta)",
+		"utcOffset": "UTC+7",
+		"posixString": "WIB-7"
+	},
+	{
+		"city": "Thailand (Bangkok)",
+		"utcOffset": "UTC+7",
+		"posixString": "ICT-7"
+	},
+	{
+		"city": "Vietnam (Hanoi)",
+		"utcOffset": "UTC+7",
+		"posixString": "ICT-7"
+	},
+	{
+		"city": "Bangladesh",
+		"utcOffset": "UTC+6",
+		"posixString": "BST-6"
+	},
+	{
+		"city": "Nepal (Kathmandu)",
+		"utcOffset": "UTC+5:45",
+		"posixString": "NPT-5:45"
+	},
+	{
+		"city": "India (Delhi)",
+		"utcOffset": "UTC+5:30",
+		"posixString": "IST-5:30"
+	},
+	{
+		"city": "Pakistan (Karachi)",
+		"utcOffset": "UTC+5",
+		"posixString": "PKT-5"
+	},
+	{
+		"city": "Azerbaijan",
+		"utcOffset": "UTC+4",
+		"posixString": "GST-4"
+	},
+	{
+		"city": "UAE (Dubai)",
+		"utcOffset": "UTC+4",
+		"posixString": "GST-4"
+	},
+	{
+		"city": "Iran (Tehran)",
+		"utcOffset": "UTC+3:30",
+		"posixString": "IRST-3:30IRDT,M3.4.4/24:00:00,M9.3.4/24:00:00"
+	},
+	{
+		"city": "Greece (Athens)",
+		"utcOffset": "UTC+3",
+		"posixString": "MSK-3"
+	},
+	{
+		"city": "Iraq (Baghdad)",
+		"utcOffset": "UTC+3",
+		"posixString": "AST-3"
+	},
+	{
+		"city": "Moscow",
+		"utcOffset": "UTC+3",
+		"posixString": "MSK-3"
+	},
+	{
+		"city": "Qatar (Doha)",
+		"utcOffset": "UTC+3",
+		"posixString": "AST-3"
+	},
+	{
+		"city": "Turkey (Istanbul)",
+		"utcOffset": "UTC+3",
+		"posixString": "TRT-3"
+	},
+	{
+		"city": "Germany (Berlin)",
+		"utcOffset": "UTC+2",
+		"posixString": "CEST-1CET,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Israel (Jerusalem)",
+		"utcOffset": "UTC+2",
+		"posixString": "IST-2IDT,M3.4.5/2:00:00,M10.5.0/2:00:00"
+	},
+	{
+		"city": "South Africa (Johannesburg)",
+		"utcOffset": "UTC+2",
+		"posixString": "SAST-2"
+	},
+	{
+		"city": "Paris",
+		"utcOffset": "UTC+1",
+		"posixString": "CET-1CEST,M3.5.0/2:00:00,M10.5.0/3:00:00"
+	},
+	{
+		"city": "Rome",
+		"utcOffset": "UTC+1",
+		"posixString": "CET-1CEST,M3.5.0/2:00:00,M10.5.0/3:00:00"
+	},
+	{
+		"city": "London",
+		"utcOffset": "UTC+0",
+		"posixString": "GMT0BST,M3.5.0/1:00:00,M10.5.0/2:00:00"
+	},
+	{
+		"city": "Cabo Verde",
+		"utcOffset": "UTC-1",
+		"posixString": "CVT1"
+	},
+	{
+		"city": "Greenland",
+		"utcOffset": "UTC-2",
+		"posixString": "WGST3WGT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Argentina",
+		"utcOffset": "UTC-3",
+		"posixString": "ART3"
+	},
+	{
+		"city": "São Paulo",
+		"utcOffset": "UTC-3",
+		"posixString": "BRT3BRST,M10.3.0/0:00:00,M2.3.0/0:00:00"
+	},
+	{
+		"city": "New York",
+		"utcOffset": "UTC-5",
+		"posixString": "EST5EDT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Chicago",
+		"utcOffset": "UTC-6",
+		"posixString": "CST6CDT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Mexico City",
+		"utcOffset": "UTC-6",
+		"posixString": "CST6CDT,M4.1.0/2:00:00,M10.5.0/2:00:00"
+	},
+	{
+		"city": "Denver",
+		"utcOffset": "UTC-7",
+		"posixString": "MST7MDT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Los Angeles",
+		"utcOffset": "UTC-8",
+		"posixString": "PST8PDT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Alaska",
+		"utcOffset": "UTC-9",
+		"posixString": "AKST9AKDT,M3.2.0/2:00:00,M11.1.0/2:00:00"
+	},
+	{
+		"city": "Hawaii",
+		"utcOffset": "UTC-10",
+		"posixString": "HST10"
+	},
+	{
+		"city": "American Samoa",
+		"utcOffset": "UTC-11",
+		"posixString": "NUT11"
+	}
+]
