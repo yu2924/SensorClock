@@ -73,7 +73,7 @@ As I was getting started with firmware development, I learned that LVGL offers [
 
 ### 3.2. Configuration
 
-**Platform**: This application used ESP-IDF as the base framework and LVGL for the GUI, along with the WaveShare's board support package (BSP).
+**Platform**: This application used ESP-IDF v5.5.4 as the base framework and LVGL v9.5 for the GUI, along with the WaveShare's board support package (BSP).
 
 **I2C port**: I found the drivers for the SCD4x and the BME680 on the Espressif Component Registry. These drivers are implemented using the i2cdev library; however, since the BSP and the i2cdev conflict during I2C initialization, so I decided to assign these sensors to a port other than the one assigned to the BSP.
 
