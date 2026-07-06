@@ -71,6 +71,8 @@ cf. [認証取得済みモジュールを内蔵する製品の場合](https://ww
 
 As I was getting started with firmware development, I learned that LVGL offers [a Win32 port](https://github.com/lvgl/lv_port_pc_visual_studio).  So, I decided to divide the application into modules, prototype most of the implementation to run on Windows, and replace only the platform-dependent modules with implementations using ESP-IDF/FreeRTOS functions.
 
+<img src="media/prototype-win32.png" width="320"> fig. prototype running on Windows
+
 ### 3.2. Configuration
 
 **Platform**: This application used ESP-IDF v5.5.4 as the base framework and LVGL v9.5 for the GUI, along with the WaveShare's board support package (BSP).
