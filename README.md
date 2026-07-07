@@ -71,7 +71,7 @@ cf. [認証取得済みモジュールを内蔵する製品の場合](https://ww
 
 As I was getting started with firmware development, I learned that LVGL offers [a Win32 port](https://github.com/lvgl/lv_port_pc_visual_studio).  So, I decided to divide the application into modules, prototype most of the implementation to run on Windows, and replace only the platform-dependent modules with implementations using ESP-IDF/FreeRTOS functions.
 
-<img src="media/prototype-win32.png" width="240"> <img src="media/prototype-win32-2.png" width="240"> <img src="media/prototype-win32-3.png" width="240">
+<img src="media/prototype-win32.png" width="240"> <img src="media/prototype-win32-2.png" width="240"> <img src="media/prototype-win32-3.png" width="240">  
 fig. prototype running on Windows
 
 ### 3.2. Configuration
