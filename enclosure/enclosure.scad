@@ -18,18 +18,18 @@ $fn=30;
 Epsilon         = 0.01;
 
 ShellThickness  = 1.5;
-PanelWidth      = 164.5;
-PanelHeight     = 99;
 BoardWidth      = 164;
 BoardHeight     = 97;
+PanelWidth      = 164.5;
+PanelHeight     = 99;
 PanelDepth      = 9;
 MountPostDepth  = 6;
 PartsDepth      = 10.5;
-PanelMargin     = 1;
-Fillet          = 3;
+PanelMargin     = 0.5;
+Fillet          = 1.5;
 
-EnclosureWidth      = PanelWidth  + (ShellThickness + PanelMargin) * 2; // 169.5
-EnclosureHeight     = PanelHeight + (ShellThickness + PanelMargin) * 2; // 104
+EnclosureWidth      = PanelWidth  + (ShellThickness + PanelMargin) * 2; // 168.5
+EnclosureHeight     = PanelHeight + (ShellThickness + PanelMargin) * 2; // 103
 EnclosureDepth      = PanelDepth + PartsDepth + ShellThickness; // 21
 echo("EncrosureWidth=", EnclosureWidth);
 echo("EnclosureHeight=", EnclosureHeight);
@@ -141,7 +141,7 @@ module allmoutingbosses()
     mountingboss(-x, -y);
 }
 
-module countersink(x, y)
+module counterbore(x, y)
 {
     screwheaddepth = 2;
     screwheaddia = 5;
@@ -149,15 +149,15 @@ module countersink(x, y)
       cyl(d=screwheaddia, h=screwheaddepth * 2);
 }
 
-module allcountersinks()
+module allcounterbore()
 {
     ScrewHoleOffset = 4;
     x = BoardWidth / 2 - ScrewHoleOffset;
     y = BoardHeight / 2 - ScrewHoleOffset;
-    countersink(-x,  y);
-    countersink( x,  y);
-    countersink( x, -y);
-    countersink(-x, -y);
+    counterbore(-x,  y);
+    counterbore( x,  y);
+    counterbore( x, -y);
+    counterbore(-x, -y);
 }
 
 // --------------------------------------------------------------------------------
@@ -203,6 +203,22 @@ module allribs()
 }
 
 // --------------------------------------------------------------------------------
+// skids
+
+module skid(x)
+{
+    translate([x, -EnclosureHeight / 2, EnclosureDepth / 2])
+      cyl(l=EnclosureDepth, r=1.5);
+}
+
+module allskids()
+{
+    skid(-52);
+    skid( 52);
+}
+
+// --------------------------------------------------------------------------------
+// assembly
 
 difference()
 {
@@ -211,11 +227,11 @@ difference()
         boxshell();
         allmoutingbosses();
         allribs();
+        allskids();
     }
     union()
     {
         allholes();
-        allcountersinks();
+        allcounterbore();
     }
 }
-
