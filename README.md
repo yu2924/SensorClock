@@ -37,6 +37,8 @@ This is a documentation of my personal project to build a table clock with envir
 - BME680 I2C temperature, humidity, barometric pressure, and gas sensor module
 - SCD41 I2C CO2 sensor module
 
+<img src="media/schematics.svg" width="480">
+
 ### 1.1. About Battery Operation
 
 Since the steady-state current of the HMI panel is around 300 mA, battery power is not a practical option for a stationary device (IMO).
