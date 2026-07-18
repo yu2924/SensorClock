@@ -1,7 +1,7 @@
 SCD41 module
 details unknown; purchased from AliExpress
 
-NME680 module
+BME680 module
 https://akizukidenshi.com/catalog/g/g114469/
 
 
