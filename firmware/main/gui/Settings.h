@@ -1327,7 +1327,7 @@ namespace gui::settings
 			// license notice
 			LvLabel lictitlelabel = LvLabel::create(ptr);
 			lictitlelabel.setStyleTextFont(sharedRes->fontLatin1Bold, LV_PART_MAIN);
-			lictitlelabel.setTextStatic("Thirdrd Party Software License Notice");
+			lictitlelabel.setTextStatic("Third Party Software License Notices");
 			LvLabel licdesclabel = LvLabel::create(ptr);
 			licdesclabel.setTextStatic("This software includes the following licensed components:");
 			licPopupButton = LvButton::createStaticTextButton(ptr, "Show License Notice");
