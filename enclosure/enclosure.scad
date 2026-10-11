@@ -203,21 +203,6 @@ module allribs()
 }
 
 // --------------------------------------------------------------------------------
-// skids
-
-module skid(x)
-{
-    translate([x, -EnclosureHeight / 2, EnclosureDepth / 2])
-      cyl(l=EnclosureDepth, r=1.5);
-}
-
-module allskids()
-{
-    skid(-52);
-    skid( 52);
-}
-
-// --------------------------------------------------------------------------------
 // assembly
 
 difference()
@@ -227,7 +212,6 @@ difference()
         boxshell();
         allmoutingbosses();
         allribs();
-        allskids();
     }
     union()
     {

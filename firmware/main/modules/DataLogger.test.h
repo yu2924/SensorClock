@@ -158,26 +158,39 @@ namespace testdatalogger
 			const size_t L = 120 * 24 * 60 * 60 / (30 * 60);
 			const time_t tstep = 30 * 60; // 30min step
 			const double phstep = 2 * std::numbers::pi / (double)(30 * 24 * 60 * 60 / tstep); // 1cycle / 30days
+			static const struct { int id; const char* icon; } WeatherTable[] =
+			{
+				{ 800, "01d" },
+				{ 801, "02d" },
+				{ 802, "03d" },
+				{ 803, "04d" },
+			};
 			time_t tcur = makeTimeWithCalendarTime(2026, 1, 1, 0, 0, 0);
 			double ph = 0;
 			DataLogger::WeatherHistoryRecord rec{};
 			rec.dt = tcur;
-			rec.tempC = 20;
-			rec.pressureHpa = 1000;
+			rec.tempC = 25;
+			rec.pressureHpa = 1013;
 			rec.humidityPct = 50;
 			rec.cloudsPct = 10;
-			rec.windSpeedMps = 0;
+			rec.windSpeedMps = 10;
 			rec.windDeg = 0;
-			rec.weatherId = 800;
-			rec.weatherIcon = "01";
+			rec.weatherId = WeatherTable[0].id;
+			rec.weatherIcon = WeatherTable[0].icon;
 			for(size_t id = 0; id < L; ++id)
 			{
-				float v = 25 + 5 * std::sinf((float)ph);
+				float s = std::sinf((float)ph);
 				rec.dt = tcur;
-				rec.tempC = v;
-				rec.windSpeedMps = v + 5;
-				rec.windDeg = (int16_t)(v + 15);
-				rec.humidityPct = (int16_t)(v + 10);
+				rec.tempC = 25 + s * 5;
+				rec.pressureHpa = (int16_t)(1013 + s * 10);
+				rec.humidityPct = (int16_t)(50 + s * 5);
+				rec.cloudsPct = (int16_t)(10 + s * 5);
+				double progress = (double)id / (double)L;
+				int iw = (int)(progress * (double)(std::size(WeatherTable) - 1));
+				rec.windSpeedMps = 10 + s * 5;
+				rec.windDeg = (int16_t)(progress * 360);
+				rec.weatherId = WeatherTable[iw].id;
+				rec.weatherIcon = WeatherTable[iw].icon;
 				logger.processRecord(rec);
 				tcur += tstep;
 				ph += phstep;

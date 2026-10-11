@@ -1,7 +1,5 @@
 # SensorClock
 
-🚧UNDER CONSTRUCTION🚧
-
 <img src="media/firstlook.jpg" width="320"> <img src="media/hardware.jpg" width="320">
 
 > この家には壁掛け時計も置時計も無いな。一つ欲しいな。出来れば気温や湿度やCO2濃度なんかも見られたら良いな。
@@ -16,8 +14,9 @@ This is a documentation of my personal project to build a table clock with envir
 **Table of Contents**
 
 - [1. Hadrware](#1-hadrware)
-	- [1.1. About Battery Operation](#11-about-battery-operation)
-	- [1.2. 日本国内における技術基準適合証明](#12-日本国内における技術基準適合証明)
+	- [1.1. Installation Location of The Sensors](#11-installation-location-of-the-sensors)
+	- [1.2. Battery Operation](#12-battery-operation)
+	- [1.3. 日本国内における技術基準適合証明](#13-日本国内における技術基準適合証明)
 - [2. Tools Required for Development](#2-tools-required-for-development)
 - [3. Firmware](#3-firmware)
 	- [3.1. Introduction](#31-introduction)
@@ -39,11 +38,19 @@ This is a documentation of my personal project to build a table clock with envir
 
 <img src="media/schematics.svg" width="480">
 
-### 1.1. About Battery Operation
+<img src="media/sc-analog.jpg" width="240">
+<img src="media/sc-digital.jpg" width="240">
+<img src="media/sc-pedestal.jpg" width="240">
+
+### 1.1. Installation Location of The Sensors
+
+Installation of temperature sensors requires careful consideration of ventilation. If there is insufficient airflow, heat will build up and the measured temperature will gradually rise. It should be placed away from the processor; ideally, it would be best to install it outside the enclosure.
+
+### 1.2. Battery Operation
 
 Since the steady-state current of the HMI panel is around 300 mA, battery power is not a practical option for a stationary device (IMO).
 
-### 1.2. 日本国内における技術基準適合証明
+### 1.3. 日本国内における技術基準適合証明
 
 この制作で使用したHMIディスプレイパネル製品は認証取得済みのモジュールを搭載しています。
 

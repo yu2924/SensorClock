@@ -48,7 +48,7 @@ namespace gui
 		static constexpr int32_t Margin = 3;
 		static constexpr int32_t Padding = 6;
 		static constexpr int32_t CornerRadius = 3;
-		static constexpr int32_t HeaderHeight = 20;
+		static constexpr int32_t HeaderHeight = 24;
 		static constexpr int32_t BarGraphThickness = 9;
 		static constexpr int32_t FieldRowHeight = 28;
 		static constexpr int32_t FieldLabelWidth = 112;
@@ -64,7 +64,7 @@ namespace gui
 		static constexpr int32_t Margin = 4;
 		static constexpr int32_t Padding = 8;
 		static constexpr int32_t CornerRadius = 4;
-		static constexpr int32_t HeaderHeight = 24;
+		static constexpr int32_t HeaderHeight = 32;
 		static constexpr int32_t BarGraphThickness = 12;
 		static constexpr int32_t FieldRowHeight = 36;
 		static constexpr int32_t FieldLabelWidth = 144;
