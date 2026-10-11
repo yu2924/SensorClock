@@ -38,9 +38,7 @@ This is a documentation of my personal project to build a table clock with envir
 
 <img src="media/schematics.svg" width="480">
 
-<img src="media/sc-analog.jpg" width="240">
-<img src="media/sc-digital.jpg" width="240">
-<img src="media/sc-pedestal.jpg" width="240">
+<img src="media/sc-analog.jpg" width="240"> <img src="media/sc-digital.jpg" width="240"> <img src="media/sc-pedestal.jpg" width="240">
 
 ### 1.1. Installation Location of The Sensors
 
