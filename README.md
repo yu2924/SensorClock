@@ -266,6 +266,8 @@ Example of response:
 }
 ```
 
+A sample client application is also available: [SensorClockViewer](https://github.com/yu2924/SensorClockViewer)
+
 ---
 
 ## 4. Developed by / License for the Created Data
