@@ -165,7 +165,7 @@ private:
 					if(!snapshot->getRecordAt(i, &rec)) { break; }
 					const char* fmt = R"(%s)"
 						R"({"dt":"%lld", )"
-						R"("temp":"%.1f", "pressure":"%d", "humidity":"%d", "cloud":"%d", )"
+						R"("temp":"%.1f", "pressure":"%d", "humidity":"%d", "clouds":"%d", )"
 						R"("wind_speed":"%.2f", "wind_deg":"%d", "weather_id":"%d", "weather_icon":"%s"})";
 					resp.format(fmt,
 						(0 < i) ? ", " : "",

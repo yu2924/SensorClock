@@ -313,21 +313,21 @@ namespace sensorhistory
 		IntRecordT(const ExtRecordT& x)
 		{
 			dt = x.dt;
-			tempx100 = (int16_t)(x.values[DataLogger::IsfTemp] * 100 + 0.5f);
-			hum = (int8_t)(x.values[DataLogger::IsfHum] + 0.5f);
-			pres = (int16_t)(x.values[DataLogger::IsfPres] + 0.5f);
-			co2 = (int16_t)(x.values[DataLogger::IsfCo2] + 0.5f);
-			iaq = (int8_t)(x.values[DataLogger::IsfIaq] + 0.5f);
+			tempx100	= (int16_t)(x.values[DataLogger::IsfTemp] * 100 + 0.5f);
+			hum			= (int8_t)(x.values[DataLogger::IsfHum] + 0.5f);
+			pres		= (int16_t)(x.values[DataLogger::IsfPres] + 0.5f);
+			co2			= (int16_t)(x.values[DataLogger::IsfCo2] + 0.5f);
+			iaq			= (int8_t)(x.values[DataLogger::IsfIaq] + 0.5f);
 		}
 		operator ExtRecordT() const
 		{
 			ExtRecordT x{};
 			x.dt = dt;
 			x.values[DataLogger::IsfTemp] = (float)tempx100 * 0.01f;
-			x.values[DataLogger::IsfHum] = (float)hum;
+			x.values[DataLogger::IsfHum ] = (float)hum;
 			x.values[DataLogger::IsfPres] = (float)pres;
-			x.values[DataLogger::IsfCo2] = (float)co2;
-			x.values[DataLogger::IsfIaq] = (float)iaq;
+			x.values[DataLogger::IsfCo2 ] = (float)co2;
+			x.values[DataLogger::IsfIaq ] = (float)iaq;
 			return x;
 		}
 	};
@@ -466,27 +466,27 @@ namespace weatherhistory
 		IntRecordT(const ExtRecordT& x)
 		{
 			dt = x.dt;
-			tempX100 = (int16_t)(x.tempC * 100 + 0.5);
-			pressureHpa = x.pressureHpa;
-			humidityPct = (int8_t)x.humidityPct;
-			cloudsPct = (int8_t)x.cloudsPct;
-			windDeg = x.windDeg;
-			windSpeedX100 = (int16_t)(x.windSpeedMps * 100 + 0.5f);
-			weatherId = x.weatherId;
-			weatherIcon = x.weatherIcon;
+			tempX100		= (int16_t)(x.tempC * 100 + 0.5);
+			pressureHpa		= x.pressureHpa;
+			humidityPct		= (int8_t)x.humidityPct;
+			cloudsPct		= (int8_t)x.cloudsPct;
+			windDeg			= x.windDeg;
+			windSpeedX100	= (int16_t)(x.windSpeedMps * 100 + 0.5f);
+			weatherId		= x.weatherId;
+			weatherIcon		= x.weatherIcon;
 		}
 		operator ExtRecordT() const
 		{
 			ExtRecordT x{};
 			x.dt = dt;
-			x.tempC = (float)tempX100 * 0.01f;
-			x.pressureHpa = pressureHpa;
-			x.humidityPct = humidityPct;
-			x.cloudsPct = cloudsPct;
-			x.windDeg = windDeg;
-			x.windSpeedMps = (float)windSpeedX100 * 0.01f;
-			x.weatherId = weatherId;
-			x.weatherIcon = weatherIcon;
+			x.tempC			= (float)tempX100 * 0.01f;
+			x.pressureHpa	= pressureHpa;
+			x.humidityPct	= humidityPct;
+			x.cloudsPct		= cloudsPct;
+			x.windDeg		= windDeg;
+			x.windSpeedMps	= (float)windSpeedX100 * 0.01f;
+			x.weatherId		= weatherId;
+			x.weatherIcon	= weatherIcon;
 			return x;
 		}
 	};
@@ -589,14 +589,14 @@ namespace weatherhistory
 			if(res.apiStatus != 200) { return; }
 			DataLogger::WeatherHistoryRecord rec{};
 			rec.dt = res.current.dt;
-			rec.tempC = res.current.tempC;
-			rec.pressureHpa = res.current.pressureHpa;
-			rec.humidityPct = res.current.humidityPct;
-			rec.cloudsPct = rec.cloudsPct;
-			rec.windDeg = rec.windDeg;
-			rec.windSpeedMps = res.current.windSpeedMps;
-			rec.weatherId = res.current.weatherId;
-			rec.weatherIcon = res.current.weatherIcon;
+			rec.tempC			= res.current.tempC;
+			rec.pressureHpa		= res.current.pressureHpa;
+			rec.humidityPct		= res.current.humidityPct;
+			rec.cloudsPct		= res.current.cloudsPct;
+			rec.windDeg			= res.current.windDeg;
+			rec.windSpeedMps	= res.current.windSpeedMps;
+			rec.weatherId		= res.current.weatherId;
+			rec.weatherIcon		= res.current.weatherIcon;
 			asyncQueue.push(rec);
 		}
 	};

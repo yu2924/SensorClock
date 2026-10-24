@@ -255,7 +255,7 @@ Example of response:
 			"temp": "23.2",
 			"pressure": "1006",
 			"humidity": "36",
-			"cloud": "69",
+			"clouds": "69",
 			"wind_speed": "0.45",
 			"wind_deg": "329",
 			"weather_id": "803",
